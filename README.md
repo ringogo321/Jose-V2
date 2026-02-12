@@ -5,6 +5,7 @@ Simple static demo page for a high-volume recruiting AI workflow.
 ## Files
 - `index.html`
 - `recruiter-questions.html`
+- `thank-you.html`
 - `styles.css`
 - `script.js`
 

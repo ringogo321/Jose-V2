@@ -23,6 +23,7 @@ body {
   background:
     radial-gradient(circle at top, rgba(31, 143, 74, 0.12) 0%, rgba(243, 246, 239, 0.92) 45%, #f3f6ef 100%),
     linear-gradient(120deg, rgba(247, 212, 74, 0.2), rgba(27, 79, 156, 0.15));
+  line-height: 1.6;
 }
 
 .grain {
@@ -117,7 +118,7 @@ main {
 }
 
 .lede {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: var(--muted);
   max-width: 520px;
 }
@@ -350,6 +351,11 @@ main {
   border: 1px solid var(--stroke);
   display: grid;
   gap: 16px;
+}
+
+.highlight {
+  color: var(--accent-2);
+  font-weight: 600;
 }
 
 label {
