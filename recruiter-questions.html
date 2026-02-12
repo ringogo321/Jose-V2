@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jose V2 — Recruiter Questions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="nav">
+      <div class="logo">Jose V2</div>
+      <nav>
+        <a href="index.html#problem">Problem</a>
+        <a href="index.html#solution">Solution</a>
+        <a href="index.html#demo">Demo</a>
+        <a href="index.html#apply">Apply</a>
+      </nav>
+      <button class="primary" onclick="window.location.href='index.html#apply'">
+        Back to Apply
+      </button>
+    </header>
+
+    <main>
+      <section class="apply">
+        <div class="apply-text">
+          <h2>Quick recruiter questions</h2>
+          <p>
+            We use these to tailor the screening flow and ensure the right recruiter experience.
+          </p>
+          <ul>
+            <li>Helps match you to the right role</li>
+            <li>Feeds the structured screening</li>
+            <li>Takes under 1 minute</li>
+          </ul>
+        </div>
+        <form class="apply-form" id="recruiterForm">
+          <label>
+            What types of roles do you recruit for most?
+            <input type="text" name="roles" placeholder="Sales, GTM, Product" required />
+          </label>
+          <label>
+            How many hires do you personally manage per quarter?
+            <input type="number" name="volume" min="1" placeholder="10" required />
+          </label>
+          <label>
+            What ATS are you using today?
+            <input type="text" name="ats" placeholder="Greenhouse, Lever, etc." required />
+          </label>
+          <button class="primary" type="submit">Submit answers</button>
+          <p class="form-note" id="recruiterNote" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Jose V2</strong>
+        <p>Demo concept for high-volume recruiting automation.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html#problem">Problem</a>
+        <a href="index.html#solution">Solution</a>
+        <a href="index.html#demo">ATS</a>
+        <a href="index.html#apply">Apply</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
