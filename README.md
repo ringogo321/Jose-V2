@@ -1,4 +1,4 @@
-# Jose V2 Demo
+# Jose V3 Demo
 
 Simple static demo page for a high-volume recruiting AI workflow.
 
