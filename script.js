@@ -25,7 +25,8 @@ if (form) {
     };
 
     localStorage.setItem("joseV2Applicant", JSON.stringify(payload));
-    window.location.href = "recruiter-questions.html";
+    const next = form.getAttribute("action") || "recruiter-questions.html";
+    window.location.href = next;
   });
 }
 
